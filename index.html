@@ -5,129 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <a href="#home">Asel Mambetalieva</a>
-      <nav>
-        <ul>
-          <li>
-            <a href="#home">About me</a>
-          </li>
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#languages">Languages</a>
-          </li>
-          <li>
-            <a href="#code">Code Example</a>
-          </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <img src="images/myphoto.jpg" width="300" alt="asel mambetalieva" />
-
-      <h1>Asel Mambetalieva</h1>
-
-      <h3>Frond-end Developer</h3>
-      <p>
-        Hi, my name is Asel. Experienced Frond-end Developer in the computer
-        software industry. Skilled in React. I'm keen to gain more experience
-        and knowledge in programming.
-      </p>
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+          <a href="#" class="header-logo">MA</a>
+          <ul class="header-menu">
+            <li class="header-menu-item">
+              <a href="#home" class="header-menu-link">Home</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#skills" class="header-menu-link">Skills</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#code" class="header-menu-link">Code example</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#portfolio" class="header-menu-link">Portfolio</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#education" class="header-menu-link">Educations</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#languages" class="header-menu-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-      <section id="scills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Java Script</li>
-          <li>React</li>
-          <li>Python</li>
-          <li>Dgango</li>
-          <li>Git Hub</li>
-          <li>Figma</li>
-          <li>Wordpress</li>
-        </ul>
-      </section>
-      <section id="languages">
-        <h2>Language skills</h2>
-        <ul>
-          <li><b>Kyrgyz</b> &mdash; Native</li>
-          <li><b>Russian</b> &mdash; Fluent</li>
-          <li><b>English</b> &mdash; Intermediate</li>
-        </ul>
-      </section>
-      <section id="code">
-        <h2>Code Example</h2>
-        <pre>
-          <code>
-            def places(request):
-	            place_objects = Place.objects.all()
-	            return render(request, 'places/places.html', {'places': place_objects})
-              
-              &lt;!DOCTYPE html&gt;
-              &lt;html lang="en"&gt;
-                &lt;head&gt;&lt;/head&gt;
-                &lt;body&gt;&lt;/body&gt;
-              &lt;/html&gt;
-          </code>
-        </pre>
-      </section>
-      <section id="portfolio">
-        <h2>My portfolio</h2>
-        <ul>
-          <li>
-            <img src="images/inshop.png" width="400" alt="техника для дома" />
-            <h3>Интернет магазин</h3>
-            <a href="https://asel-git.github.io/inshop/" target="_blank"
-              >View project</a
-            >
-          </li>
-        </ul>
-      </section>
-      <section id="contact">
-        <h2>Contact me</h2>
-        <p>
-          Message me if you have some questions, suggestions or just want to ask
-          how I'm doing.
-        </p>
-        <ul>
-          <li>
-            <h4>Phone number</h4>
-            <a href="tel:+996708547353">+996708547353</a>
-          </li>
-          <li>
-            <h4>Email</h4>
-            <a href="mailto:asel.mambetalieva.kk@gmail.com"
-              >asel.mambetalieva.kk@gmail.com</a
-            >
-          </li>
-          <li>
-            <h4>Instagram</h4>
-            <a href="https://instagram.com/mambetalieva_asel_"
-              >@mambetalieva_asel_</a
-            >
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <p>
-        &copy;2022 Asel Mambetalieva
-        <a href="https://github.com/Asel-git">GitHub</a>
-        <a href="https://linktr.ee/jyldyzacademy2020">Jyldyz Academy</a>
-        <a href="https://github.com/Asel-git/tecshop/blob/main/index.html"
-          >uuu</a
-        >
-      </p>
-    </footer>
   </body>
 </html>
